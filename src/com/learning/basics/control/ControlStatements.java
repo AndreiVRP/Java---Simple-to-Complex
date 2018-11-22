@@ -1,4 +1,4 @@
-package com.learning.basics.conditionalStatements;
+package com.learning.basics.control;
 
 public class ControlStatements {
     public static void main(String[] args) {
