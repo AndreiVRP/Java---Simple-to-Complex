@@ -1,4 +1,4 @@
-package com.learning.typesAndVariables;
+package com.learning.basics.typesAndVariables;
 
 public class PrimitiveTypes {
 
