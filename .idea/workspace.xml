@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5aa90b-331c-4587-930a-4e3a98acdd3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/learning/basics/loops/Loops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learning/basics/conditionalStatements/ControlStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/basics/control/ControlStatements.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/basics/control/ControlStatements.java">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/basics/loops/Loops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="294">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -48,6 +48,7 @@
         <option value="$PROJECT_DIR$/src/com/learning/controlStatements/ControlStatements.java" />
         <option value="$PROJECT_DIR$/src/com/learning/basics/controlStatements/ControlStatements.java" />
         <option value="$PROJECT_DIR$/src/com/learning/basics/conditionalStatements/ControlStatements.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/basics/loops/Loops.java" />
       </list>
     </option>
   </component>
@@ -99,7 +100,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542908684836" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542913233977" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ControlStatements">
+  <component name="RunManager" selected="Application.Loops">
     <configuration name="ControlStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.basics.control.ControlStatements" />
       <module name="Java - Simple to Complex" />
@@ -140,6 +141,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learning.basics.controlStatements.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.basics.loops.Loops" />
+      <module name="Java - Simple to Complex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.basics.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,6 +189,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Loops" />
         <item itemvalue="Application.ControlStatements" />
         <item itemvalue="Application.Operators" />
         <item itemvalue="Application.PrimitiveTypes" />
@@ -199,7 +214,7 @@
     <frame x="-371" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -208,7 +223,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,8 +281,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/basics/control/ControlStatements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="312">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/basics/loops/Loops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
