@@ -1,12 +1,11 @@
 package com.learning.oop1;
-import com.learning.oop1.Dog;
 
 public class Main {
     public static void main(String[] args) {
 
         Dog.getDogsCount();
 
-        Dog lab = new Dog("Rex", "Lab", "Average ");
+        Dog lab = new Dog("Rex", "Lab", Size.UNDEFINED);
         lab.getInfo();
         lab.setName("Charlie");
         lab.getInfo();
@@ -15,19 +14,26 @@ public class Main {
 
         Dog.getDogsCount();
 
-        Dog shepherd = new Dog("Mike", "Shepherd", "Almost Big");
+        Dog shepherd = new Dog("Mike", "Shepherd", Size.BIG);
         shepherd.getInfo();
-        shepherd.setTail(2);
-        shepherd.setTail(0);
-        shepherd.setTail(-1);
-        shepherd.setTail(1);
-        System.out.println("The dog named " + shepherd.getName() + " has " + shepherd.getTail() + " tail");
-        shepherd.bark();
-        shepherd.setSize("Big");
+        System.out.println("The dog named " + shepherd.getName() + " has " + shepherd.TAIL + " tail");
         shepherd.bark();
 
         Dog.getDogsCount();
 
+        Size s = Size.AVERAGE;
+        System.out.println(s.getAbbreviation());
+        System.out.println(s);
+        System.out.println(s.toString());
+        System.out.println(s.toString().toLowerCase());
+        Size s1 = s.valueOf("AVERAGE");
+        System.out.println(s1);
 
+        System.out.println();
+        Size[] sizes = Size.values();
+        for (Size size: sizes) {
+            System.out.println(size.toString());
+        }
     }
+
 }

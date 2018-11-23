@@ -3,13 +3,14 @@ package com.learning.oop1;
 public class Dog {
     private static int dogsCount;
 
-    private int paws = 4;
-    private int tail = 1;
+    // constants can be made public since no one can change it anyways, but it can be set to private if this info is confidential
+    public static final int PAWS = 4;
+    public static final int TAIL = 1;
     private String name;
     private String breed;
-    private String size;
+    private Size size = Size.UNDEFINED;
 
-    public Dog(String name, String breed, String size) {
+    public Dog(String name, String breed, Size size) {
         this.name = name;
         this.breed = breed;
         this.size = size;
@@ -25,35 +26,12 @@ public class Dog {
         this.name = name;
     }
 
-    public int getTail() {
-        return tail;
-    }
-
-    public void setTail(int tail) {
-
-        if (tail == 1) {
-            this.tail = tail;
-            System.out.println("Your dog has a tail!");
-        } else if (tail > 1) {
-            this.tail = 1;
-            System.out.println("The value has been reset to 1. A dog can only have one tail");
-        } else {
-            System.out.println("Invalid input");
-        }
-    }
-
-    public String getSize() {
+    public Size getSize() {
         return size;
     }
 
-    public void setSize(String size) {
-        if (size.equalsIgnoreCase("Big") ||
-                size.equalsIgnoreCase("Average") ||
-                size.equalsIgnoreCase("Small")) {
-            this.size = size;
-        } else {
-            System.out.println("The size should be one of these: Big. Average, or  Small");
-        }
+    public void setSize(Size size) {
+
     }
 
     public void getInfo() {
@@ -62,18 +40,22 @@ public class Dog {
 
     public void bark() {
         switch (size) {
-            case "Big":
+            case BIG:
+            case VERY_BIG:
                 System.out.println("Woof! Woof!");
                 break;
-            case "Average":
+            case AVERAGE:
                 System.out.println("Raf! Raf!");
                 break;
-            case "Small":
+            case SMALL:
+            case VERY_SMALL:
                 System.out.println("Yip! Yip!");
                 break;
             default:
-                System.out.println(".....");
+                System.out.println("Undefined");
                 break;
+            // if you don't use default but forget to include an ENUM case, calling the method with this ENUM value will do nothing (no exception thrown)
+            // if there is a default case, calling the method with the ENUM value will trigger the default case
         }
 
 

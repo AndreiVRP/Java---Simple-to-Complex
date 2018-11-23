@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5aa90b-331c-4587-930a-4e3a98acdd3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/learning/oop1/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/oop1/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/oop1/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/oop1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/oop1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/learning/oop1/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/oop1/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/learning/oop1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/oop1/Main.java" afterDir="false" />
     </list>
@@ -17,8 +21,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="244">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Size.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,18 +45,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+            <state relative-caret-position="247">
+              <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
               <folding>
                 <element signature="e#288#289#0" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
                 <element signature="e#883#884#0" expanded="true" />
                 <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,6 +66,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -72,16 +90,15 @@
         <option value="$PROJECT_DIR$/src/com/learning/basics/methods/Methods.java" />
         <option value="$PROJECT_DIR$/src/com/learning/basics/string/Strings.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop1/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/oop1/Size.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop1/Dog.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/oop1/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-348" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -125,7 +142,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542977635707" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542996315195" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,10 +259,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-348" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16240682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -253,8 +270,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33564356" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30547947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -262,7 +279,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32970297" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,28 +361,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+        <state relative-caret-position="247">
+          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
           <folding>
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
             <element signature="e#883#884#0" expanded="true" />
             <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="244">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
