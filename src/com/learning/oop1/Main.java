@@ -1,5 +1,7 @@
 package com.learning.oop1;
 
+import com.learning.hello.test.Test;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -34,6 +36,10 @@ public class Main {
         for (Size size: sizes) {
             System.out.println(size.toString());
         }
+
+        // testing class import
+        Test.testMethod();
+
     }
 
 }
