@@ -10,6 +10,17 @@ public class ElectricCar extends Auto {
         this.passengersNumber = passengersNumber;
     }
 
+    @Override
+    public void start() {
+        //add the remaining lines
+        System.out.println("The electric car is starting");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("The electric car has stopped");
+    }
+
     public void charge() {
         System.out.println("The battery is charging");
     }

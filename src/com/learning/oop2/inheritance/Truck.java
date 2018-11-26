@@ -8,6 +8,17 @@ public class Truck extends FuelAuto {
         this.cargoWeight = cargoWeight;
     }
 
+    @Override
+    public void start() {
+        //add the remaining lines
+        System.out.println("The truck is starting");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("The truck has stopped");
+    }
+
 
     public int getCargoWeight() {
         return cargoWeight;
