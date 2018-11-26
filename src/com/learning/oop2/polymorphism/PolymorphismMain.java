@@ -41,7 +41,6 @@ public class PolymorphismMain {
         // the parameter of the method is a parent class
         // the argument can be an instance of either the parent class or one of its sub-classes
         // that's polymorphism
-
     }
 
     public static void runAuto(Auto auto) {
