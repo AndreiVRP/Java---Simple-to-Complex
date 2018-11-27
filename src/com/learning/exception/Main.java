@@ -8,6 +8,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        try {
+            doEverything();
+        } catch (NullPointerException e) {
+            System.out.println("NPE");
+//            e.printStackTrace();
+            System.out.println("-----");
+            Throwable[] suppressed = e.getSuppressed();
+            System.out.println(suppressed[0]);
+//            for (Throwable s : suppressed) {
+//                System.out.println(s);
+//            }
+        }
+        // to avoid this thing, check writer.close() for null
+    }
+
+    private static void doEverything() {
         Scanner sc = new Scanner(System.in);
         boolean continueLoop = true;
         PrintWriter writer = null; // is null for now but defined here to broaden the scope and call writer.close() in the finally block
@@ -20,11 +36,11 @@ public class Main {
                 System.out.println("Please, enter a denominator");
                 int denominator = sc.nextInt();
 //                System.out.println("The result of dividing " + numerator + " by " + denominator + " is " + divide(numerator, denominator));
+                int [] intArray = new int[1];
+                int i = intArray[2];
+
                 writer = new PrintWriter(new FileWriter("out.txt"));
                 writer.println("The result is " + divide(numerator, denominator));
-//                if (continueLoop) {
-//                    throw new RuntimeException("Runtime Exception");
-//                }
                 continueLoop = false;
             } catch (ArithmeticException | InputMismatchException e) {
                 System.out.println("Exception: " + e);
@@ -37,7 +53,10 @@ public class Main {
             } finally {
                 //executed always, even if there's an exception
                 System.out.println("Finally called");
-//                writer.close();
+                // can close only of there is something opened
+//                if (writer != null) {
+                    writer.close();
+//                }
             }
         } while (continueLoop);
         System.out.println("The try-catch block is finished"); // termination model of exception handling
