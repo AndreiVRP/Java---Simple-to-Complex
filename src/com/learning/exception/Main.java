@@ -19,8 +19,10 @@ public class Main {
 //            for (Throwable s : suppressed) {
 //                System.out.println(s);
 //            }
+            // to avoid this thing, check writer.close() for null
+//        } catch (ArrayIndexOutOfBoundsException e) {
+//            System.out.println("ArrayIndexOutOfBoundsException");
         }
-        // to avoid this thing, check writer.close() for null
     }
 
     private static void doEverything() {
@@ -50,13 +52,17 @@ public class Main {
             } catch (IOException e) {
                 System.out.println("Unable to open the file");
                 e.printStackTrace();
+            } catch (Exception e){
+                System.out.println("All other exceptions");
+                e.printStackTrace();
+                //all specific exceptions should get caught before this one
             } finally {
                 //executed always, even if there's an exception
                 System.out.println("Finally called");
                 // can close only of there is something opened
-//                if (writer != null) {
+                if (writer != null) {
                     writer.close();
-//                }
+                }
             }
         } while (continueLoop);
         System.out.println("The try-catch block is finished"); // termination model of exception handling
