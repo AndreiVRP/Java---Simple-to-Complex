@@ -10,18 +10,9 @@ public class Main {
     public static void main(String[] args) {
         try {
             doEverything();
-        } catch (NullPointerException e) {
-            System.out.println("NPE");
-//            e.printStackTrace();
-            System.out.println("-----");
-            Throwable[] suppressed = e.getSuppressed();
-            System.out.println(suppressed[0]);
-//            for (Throwable s : suppressed) {
-//                System.out.println(s);
-//            }
-            // to avoid this thing, check writer.close() for null
-//        } catch (ArrayIndexOutOfBoundsException e) {
-//            System.out.println("ArrayIndexOutOfBoundsException");
+        } catch (InvalidInputParamException e) {
+            System.out.println("IIPE");
+            e.printStackTrace();
         }
     }
 
@@ -38,8 +29,8 @@ public class Main {
                 System.out.println("Please, enter a denominator");
                 int denominator = sc.nextInt();
 //                System.out.println("The result of dividing " + numerator + " by " + denominator + " is " + divide(numerator, denominator));
-                int [] intArray = new int[1];
-                int i = intArray[2];
+//                int [] intArray = new int[1];
+//                int i = intArray[2];
 
                 writer = new PrintWriter(new FileWriter("out.txt"));
                 writer.println("The result is " + divide(numerator, denominator));
@@ -52,10 +43,11 @@ public class Main {
             } catch (IOException e) {
                 System.out.println("Unable to open the file");
                 e.printStackTrace();
-            } catch (Exception e){
+            } catch (IndexOutOfBoundsException e){
                 System.out.println("All other exceptions");
-                e.printStackTrace();
+//                e.printStackTrace();
                 //all specific exceptions should get caught before this one
+                throw new InvalidInputParamException("Custom Extension: index out of bounds (example thrown by doEverything())");
             } finally {
                 //executed always, even if there's an exception
                 System.out.println("Finally called");
