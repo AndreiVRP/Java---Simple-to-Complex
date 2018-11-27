@@ -3,14 +3,14 @@ package com.learning.oop2.inheritance;
 public class Auto {
     private String brand;
     private String model;
-    private EngineType engineType;
+    private Engine engine;
     private int currentSpeed;
     protected boolean isRunning;
 
-    public Auto(String brand, String model, EngineType engineType) {
+    public Auto(String brand, String model, Engine engine) {
         this.brand = brand;
         this.model = model;
-        this.engineType = engineType;
+        this.engine = engine;
     }
 
     public void start() {
@@ -27,7 +27,7 @@ public class Auto {
 
     public void accelerate(int kph) {
         currentSpeed += kph;
-        System.out.println("The current speed is " + currentSpeed + "kph");
+        System.out.println("The current speed is " + currentSpeed + " kph");
     }
 
     public String getBrand() {
@@ -38,12 +38,12 @@ public class Auto {
         return model;
     }
 
-    public EngineType getEngineType() {
-        return engineType;
-    }
-
     public int getCurrentSpeed() {
         return currentSpeed;
+    }
+
+    public Engine getEngine() {
+        return engine;
     }
 
     public boolean isRunning() {

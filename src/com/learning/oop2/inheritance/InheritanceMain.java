@@ -2,7 +2,7 @@ package com.learning.oop2.inheritance;
 
 public class InheritanceMain {
     public static void main(String[] args) {
-        Truck truck = new Truck("Volvo", "VNL 300", EngineType.PETROL, 300, 500, 10000);
+        Truck truck = new Truck("Volvo", "VNL 300", new Engine(), 300, 500, 10000);
         System.out.println(truck.getBrand());
         truck.start();
         truck.accelerate(50);
@@ -12,7 +12,7 @@ public class InheritanceMain {
         truck.unload();
         System.out.println();
 
-        Bus bus = new Bus("Mersedez", "Sprinter", EngineType.DIESEL, 20, 75, 12);
+        Bus bus = new Bus("Mersedez", "Sprinter", new Engine(), 20, 75, 12);
         bus.fuelUp();
         bus.pickUpPassengers(10);
         bus.start();

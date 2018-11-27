@@ -3,8 +3,8 @@ package com.learning.oop2.inheritance;
 public class Bus extends FuelAuto {
     int passengersNumber;
 
-    public Bus(String brand, String model, EngineType engineType, int availablePetrol, int tankVolume, int passengersNumber) {
-        super(brand, model, engineType, availablePetrol, tankVolume);
+    public Bus(String brand, String model, Engine engine, int availablePetrol, int tankVolume, int passengersNumber) {
+        super(brand, model, engine, availablePetrol, tankVolume);
         this.passengersNumber = passengersNumber;
     }
 
@@ -14,11 +14,22 @@ public class Bus extends FuelAuto {
         fuelUp(volume);
     }
 
-    //method overriding
+    //method overriding (Ctrl + O)
 
+    @Override
+    public void start() {
+        //add the remaining lines
+        System.out.println("The bus is starting");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("The bus has stopped");
+    }
 
     @Override
     public void fuelUp(int petrolVolume) {
+        super.fuelUp(petrolVolume);
         int volume = getAvailablePetrol() + petrolVolume;
         if (volume > getTankVolume()) {
             setAvailablePetrol(getTankVolume());

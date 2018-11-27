@@ -3,9 +3,20 @@ package com.learning.oop2.inheritance;
 public class Truck extends FuelAuto {
     private int cargoWeight;
 
-    public Truck(String brand, String model, EngineType engineType, int availablePetrol, int tankVolume, int cargoWeight) {
-        super(brand, model, engineType, availablePetrol, tankVolume);
+    public Truck(String brand, String model, Engine engine, int availablePetrol, int tankVolume, int cargoWeight) {
+        super(brand, model, engine, availablePetrol, tankVolume);
         this.cargoWeight = cargoWeight;
+    }
+
+    @Override
+    public void start() {
+        //add the remaining lines
+        System.out.println("The truck is starting");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("The truck has stopped");
     }
 
 
