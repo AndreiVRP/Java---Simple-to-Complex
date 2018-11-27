@@ -1,12 +1,12 @@
 package com.learning.exception;
 
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
+
+
     public static void main(String[] args) {
         try {
             doEverything();
@@ -19,20 +19,19 @@ public class Main {
     private static void doEverything() {
         Scanner sc = new Scanner(System.in);
         boolean continueLoop = true;
-        PrintWriter writer = null; // is null for now but defined here to broaden the scope and call writer.close() in the finally block
-        //need to be initialized with null because otherwise writer.close() generates an error
 
         do {
-            try {
+            // try with resources - writer was moved here and it will close the resources automatically
+            // so we don't need to check it for null and call writer.close() in finally {} anymore
+            try (PrintWriter writer = new PrintWriter(new FileWriter("out.txt")); BufferedReader reader = new BufferedReader(new FileReader("12345.txt"))) {
                 System.out.println("Please, enter a numerator");
                 int numerator = sc.nextInt();
                 System.out.println("Please, enter a denominator");
                 int denominator = sc.nextInt();
-//                System.out.println("The result of dividing " + numerator + " by " + denominator + " is " + divide(numerator, denominator));
-//                int [] intArray = new int[1];
+//                int[] intArray = new int[1];
 //                int i = intArray[2];
 
-                writer = new PrintWriter(new FileWriter("out.txt"));
+                //FOR SOME REASON CANNOT LOCATE THE WRITER initialized in try with resources
                 writer.println("The result is " + divide(numerator, denominator));
                 continueLoop = false;
             } catch (ArithmeticException | InputMismatchException e) {
@@ -43,7 +42,7 @@ public class Main {
             } catch (IOException e) {
                 System.out.println("Unable to open the file");
                 e.printStackTrace();
-            } catch (IndexOutOfBoundsException e){
+            } catch (IndexOutOfBoundsException e) {
                 System.out.println("All other exceptions");
 //                e.printStackTrace();
                 //all specific exceptions should get caught before this one
@@ -52,9 +51,6 @@ public class Main {
                 //executed always, even if there's an exception
                 System.out.println("Finally called");
                 // can close only of there is something opened
-                if (writer != null) {
-                    writer.close();
-                }
             }
         } while (continueLoop);
         System.out.println("The try-catch block is finished"); // termination model of exception handling
