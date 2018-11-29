@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5aa90b-331c-4587-930a-4e3a98acdd3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/ListMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/ListRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/ToDoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/collections/lists/ListMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/collections/lists/ListRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/collections/lists/ToDoList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learning/collections/lists/ListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learning/collections/lists/ListRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ArrayListRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learning/collections/lists/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ToDoList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,28 +30,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/ListMain.java">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="308">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/ListRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="48" column="72" lean-forward="true" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/ToDoList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="88">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -68,10 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Engine.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Auto.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/composition/CompositionMain.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/ElectricCar.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Bus.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Truck.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/polymorphism/PolymorphismMain.java" />
@@ -119,6 +111,10 @@
         <option value="$PROJECT_DIR$/src/com/learning/collections/lists/ListMain.java" />
         <option value="$PROJECT_DIR$/src/com/learning/collections/lists/ToDoList.java" />
         <option value="$PROJECT_DIR$/src/com/learning/collections/lists/ListRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ToDoList.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ListRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java" />
       </list>
     </option>
   </component>
@@ -169,16 +165,25 @@
               <item name="collections" type="462c0819:PsiDirectoryNode" />
               <item name="lists" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java - Simple to Complex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java---Simple-to-Complex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="lists" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedLists" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543417586668" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543479689421" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -186,20 +191,21 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/com/learning/oop2/nested3" />
-      <recent name="$PROJECT_DIR$/src/com/learning/oop2/nestedLocalAnonymous2" />
-      <recent name="$PROJECT_DIR$/src/com/learning/oop2" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learning.oop2.nested3" />
+      <recent name="com.learning.oop2.nestedLocalAnonymous" />
+      <recent name="com.learning.oop2.inheritance" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.learning.collections.arrays" />
       <recent name="com.learning.oop2.abstraction" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.learning.oop2.nested3" />
-      <recent name="com.learning.oop2.nestedLocalAnonymous" />
-      <recent name="com.learning.oop2.inheritance" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/com/learning/oop2/nested3" />
+      <recent name="$PROJECT_DIR$/src/com/learning/oop2/nestedLocalAnonymous2" />
+      <recent name="$PROJECT_DIR$/src/com/learning/oop2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,7 +220,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListRunner">
+  <component name="RunManager" selected="Application.LinkedListRunner">
+    <configuration name="ArrayListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.lists.arrayLists.ArrayListRunner" />
+      <module name="Java - Simple to Complex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.collections.lists.arrayLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Indexes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.collections.arrays.Indexes" />
       <module name="Java - Simple to Complex" />
@@ -228,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Indexes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.collections.arrays.Indexes2" />
+    <configuration name="LinkedListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.lists.linkedLists.LinkedListRunner" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.collections.arrays.*" />
+          <option name="PATTERN" value="com.learning.collections.lists.linkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,37 +261,11 @@
       </method>
     </configuration>
     <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.collections.lists.ListMain" />
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.lists.arrayLists.ListMain" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.collections.lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.collections.lists.ListRunner" />
-      <module name="Java - Simple to Complex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.collections.lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.oop2.nested3.Main" />
-      <module name="Java - Simple to Complex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.oop2.nested3.*" />
+          <option name="PATTERN" value="com.learning.collections.lists.arrayLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListRunner" />
+        <item itemvalue="Application.LinkedListRunner" />
+        <item itemvalue="Application.ArrayListRunner" />
         <item itemvalue="Application.ListMain" />
         <item itemvalue="Application.MultiDArrays" />
         <item itemvalue="Application.Indexes" />
-        <item itemvalue="Application.Indexes2" />
       </list>
     </recent_temporary>
   </component>
@@ -318,8 +311,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-348" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16986156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.171459" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -349,38 +343,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/Piston.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="48" column="38" selection-start-line="48" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/composition/CompositionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/InheritanceMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -752,13 +714,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/arrays/Indexes2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/arrays/Indexes2.java" />
     <entry file="file://$PROJECT_DIR$/src/com/learning/collections/arrays/Indexes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -785,24 +741,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/ListMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ListMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/ToDoList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ListMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/ListRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="48" column="72" lean-forward="true" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ArrayListRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>

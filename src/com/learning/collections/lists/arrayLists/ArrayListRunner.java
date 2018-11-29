@@ -1,8 +1,8 @@
-package com.learning.collections.lists;
+package com.learning.collections.lists.arrayLists;
 
 import java.util.Scanner;
 
-public class ListRunner {
+public class ArrayListRunner {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
