@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae5aa90b-331c-4587-930a-4e3a98acdd3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/collections/lists/ListMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/collections/lists/ListRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/collections/lists/ToDoList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learning/collections/lists/ListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learning/collections/lists/ListRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ArrayListRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learning/collections/lists/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ToDoList.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae5aa90b-331c-4587-930a-4e3a98acdd3a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,20 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/CollectionsMail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="447">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Bus.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Truck.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/polymorphism/PolymorphismMain.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractAuto.java" />
@@ -115,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ListRunner.java" />
         <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java" />
         <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/CollectionsMail.java" />
       </list>
     </option>
   </component>
@@ -157,23 +141,6 @@
               <item name="learning" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java - Simple to Complex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java---Simple-to-Complex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="lists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java - Simple to Complex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java---Simple-to-Complex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="lists" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedLists" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -183,7 +150,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543479689421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543488375352" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -220,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListRunner">
+  <component name="RunManager" selected="Application.CollectionsMail">
     <configuration name="ArrayListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.collections.lists.arrayLists.ArrayListRunner" />
       <module name="Java - Simple to Complex" />
@@ -234,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Indexes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.collections.arrays.Indexes" />
+    <configuration name="CollectionsMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.collectionInterface.CollectionsMail" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.collections.arrays.*" />
+          <option name="PATTERN" value="com.learning.collections.collectionInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsMail" />
         <item itemvalue="Application.LinkedListRunner" />
         <item itemvalue="Application.ArrayListRunner" />
         <item itemvalue="Application.ListMain" />
         <item itemvalue="Application.MultiDArrays" />
-        <item itemvalue="Application.Indexes" />
       </list>
     </recent_temporary>
   </component>
@@ -343,13 +310,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/InheritanceMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/ElectricCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -778,8 +738,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="550">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/CollectionsMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
