@@ -26,7 +26,7 @@ public class SetRunner {
 
 
 
-        String[] cars = {"Audi", "Toyota", "Mersedez", "BMW", "Audi"};
+        String[] cars = {"Audi", "Toyota", "Mercedez", "BMW", "Audi"};
         System.out.println("amount of cars: " + cars.length);
 
         // hash set - unique items - unordered (the fastest one)
@@ -59,6 +59,11 @@ public class SetRunner {
         Car car1 = new Car("Audi", "A8", 35);
         Car car2 = new Car("Audi", "A8", 35);
         Car car3 = new Car("BMW", "X6", 55);
+        Car car4 = new Car("BMW", "X5", 25);
+        Car car5 = new Car("Bentley", "Continental", 100);
+        Car car6 = new Car("Bentley", "Continental", 110);
+
+
 
 
         if (car1 == car2) {
@@ -80,14 +85,33 @@ public class SetRunner {
         //now our default equals() is overriden and can check objects of the same class for being equal
         //however, to spot duplicates when populating sets, we also need to override hashCode()
 
-        Set<Car> carSet = new HashSet<>();
+        NavigableSet<Car> carSet = new TreeSet<>();
         carSet.add(car1);
         carSet.add(car2);
         carSet.add(car3);
+        carSet.add(car4);
+        carSet.add(car5);
+        carSet.add(car6);
         System.out.println(carSet.size());
+        System.out.println("Tree Set: " + carSet.toString()); // toString() is overriden - can avoid calling it explicitly
         //all 3 cars are in the set, including the duplicates, if there is no hashCode implemented
         //however, if you override hashCode(), everything starts working as intended (no duplicates)
         //TODO - read more on hash tables
+
+        Set<Car> cars2 = carSet.headSet(car2); // argument excluded
+        System.out.println(cars2); // can infer the usage of the overriden toString() method
+        cars2 = carSet.tailSet(car2); // argument included
+        System.out.println(cars2);
+
+//        SortedSet<Car> carSubset = carSet.subSet(car2, true,car4, true); // watch out for the arguments you pass when creating a subset since otherwise you may get an exception
+        SortedSet<Car> carSubset = carSet.subSet(car4, true,car2, true);
+        System.out.println("SUBSET: " + carSubset);
+        System.out.println("ENTIRE SET :" + carSet);
+        System.out.println("HIGHER: " + carSet.higher(car3)); // next above
+        System.out.println("LOWER: " + carSet.lower(car3)); // next below
+        //the next two are useful when you compare against something (argument) you aren't sure is in the set
+        System.out.println("CEILING: " + carSet.ceiling(car3)); // equal or next above
+        System.out.println("FLOOR: " + carSet.floor(car3)); // equal next below
 
     }
 

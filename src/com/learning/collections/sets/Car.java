@@ -1,6 +1,6 @@
 package com.learning.collections.sets;
 
-public final class Car {
+public final class Car implements Comparable<Car> {
     private final String make;
     private final String model;
     private final Integer price; //use Integer for using it the overriden equals method later (or you can use == to compare primitive types)
@@ -51,5 +51,22 @@ public final class Car {
         result += 31 * model.hashCode();
         result += 31 * price.hashCode();
         return result;
+    }
+
+    //tree sets will be sorted by price
+    @Override
+    public int compareTo(Car car) {
+        if (price < car.getPrice()) {
+            return -1;
+        }
+        if (price > car.getPrice()) {
+            return +1;
+        }
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return make + " " + model + " - $" + price + " a day";
     }
 }
