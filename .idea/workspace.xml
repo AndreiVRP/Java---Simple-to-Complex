@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5aa90b-331c-4587-930a-4e3a98acdd3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/learning/collections/stack/StackQueueLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/collections/stack/StackQueueLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/sets/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/sets/SetRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,38 +23,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/collectionsClass/CollectionsMain.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/sets/SetRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+            <state relative-caret-position="117">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <element signature="class#Card#0;class#CollectionsMain#0" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#972#973#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="method#convertToString#0;class#CollectionsMain#0" />
-                <element signature="method#printToConsole#0;class#CollectionsMain#0" />
+                <element signature="method#populateIntSet#0;class#SetRunner#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/stack/StackQueueLauncher.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/sets/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+            <state relative-caret-position="370">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="method#equals#0;class#Car#0" />
+                <element signature="method#hashCode#0;class#Car#0" />
               </folding>
             </state>
           </provider>
@@ -75,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractClass.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/SubClass1.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/SubClass2.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractionMain.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/Deliverable.java" />
@@ -126,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/com/learning/collections/collectionInterface/CollectionsMail.java" />
         <option value="$PROJECT_DIR$/src/com/learning/collections/collectionsClass/CollectionsMain.java" />
         <option value="$PROJECT_DIR$/src/com/learning/collections/stack/StackQueueLauncher.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/sets/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/sets/SetRunner.java" />
       </list>
     </option>
   </component>
@@ -168,6 +164,14 @@
               <item name="learning" type="462c0819:PsiDirectoryNode" />
               <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java - Simple to Complex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java---Simple-to-Complex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="sets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543503792763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543573068998" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -214,20 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackQueueLauncher">
-    <configuration name="ArrayListRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.collections.lists.arrayLists.ArrayListRunner" />
-      <module name="Java - Simple to Complex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.collections.lists.arrayLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SetRunner">
     <configuration name="CollectionsMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.collections.collectionInterface.CollectionsMail" />
       <module name="Java - Simple to Complex" />
@@ -267,6 +258,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.sets.SetRunner" />
+      <module name="Java - Simple to Complex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.collections.sets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackQueueLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.collections.stack.StackQueueLauncher" />
       <module name="Java - Simple to Complex" />
@@ -282,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetRunner" />
         <item itemvalue="Application.StackQueueLauncher" />
         <item itemvalue="Application.CollectionsMain" />
         <item itemvalue="Application.CollectionsMail" />
         <item itemvalue="Application.LinkedListRunner" />
-        <item itemvalue="Application.ArrayListRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -337,24 +341,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/polymorphism/PolymorphismMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/abstraction/SubClass1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -688,13 +674,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ListMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ListMain.java" />
     <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -776,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/collections/stack/StackQueueLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="41" column="55" lean-forward="true" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        <state relative-caret-position="208">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="e#585#586#0" expanded="true" />
             <element signature="e#622#623#0" expanded="true" />
@@ -787,6 +767,33 @@
             <element signature="e#768#769#0" expanded="true" />
             <element signature="e#1433#1434#0" expanded="true" />
             <element signature="e#1485#1486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/sets/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="method#equals#0;class#Car#0" />
+            <element signature="method#hashCode#0;class#Car#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/sets/SetRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="method#populateIntSet#0;class#SetRunner#0" />
           </folding>
         </state>
       </provider>
