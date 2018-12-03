@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5aa90b-331c-4587-930a-4e3a98acdd3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/learning/exception/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/exception/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/AverageStudenGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/SubjectGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/TreeMapRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,47 +25,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/exception/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/TreeMapRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+            <state relative-caret-position="303">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/SubjectGrade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2697#2698#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12345.txt">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/AverageStudenGrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/exception/InvalidInputParamException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="450">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
               <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -82,31 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learning/oop1/constructors/Constructors.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop1/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/EngineType.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Car.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/PetrolAuto.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Piston.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/InheritanceMain.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/FuelAuto.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Engine.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Auto.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/composition/CompositionMain.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/ElectricCar.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Bus.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/inheritance/Truck.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/polymorphism/PolymorphismMain.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractAuto.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractClass.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/SubClass1.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/SubClass2.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractionMain.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/Deliverable.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/CanFly.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/CanSwim.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/Bird.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/Penguin.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/LandBird.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/SkyBird.java" />
@@ -133,6 +112,31 @@
         <option value="$PROJECT_DIR$/src/com/learning/exception/InvalidInputParamException.java" />
         <option value="$PROJECT_DIR$/12345.txt" />
         <option value="$PROJECT_DIR$/src/com/learning/exception/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/arrays/ArrayLauncher.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/arrays/Indexes2.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/arrays/Indexes.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/arrays/MultiDArrays.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/ListMain.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/ToDoList.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/ListRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ToDoList.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ListRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/CollectionsMail.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/collectionInterface/CollectionsMail.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/collectionsClass/CollectionsMain.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/stack/StackQueueLauncher.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/sets/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/sets/SetRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/MapMain.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/WrdWrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/WordWrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/MapLauncher.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/SubjectGrade.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/AverageStudenGrade.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/TreeMapRunner.java" />
       </list>
     </option>
   </component>
@@ -150,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,24 +177,26 @@
               <item name="Java---Simple-to-Complex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java - Simple to Complex" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java---Simple-to-Complex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="oop2" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543347905735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543825522241" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -205,9 +210,11 @@
       <recent name="com.learning.oop2.inheritance" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learning.collections.arrays" />
       <recent name="com.learning.oop2.abstraction" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/com/learning/oop2/nested3" />
       <recent name="$PROJECT_DIR$/src/com/learning/oop2/nestedLocalAnonymous2" />
@@ -226,13 +233,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.oop2.nested2.Main" />
+  <component name="RunManager" selected="Application.TreeMapRunner">
+    <configuration name="CollectionsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.collectionsClass.CollectionsMain" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.oop2.nested2.*" />
+          <option name="PATTERN" value="com.learning.collections.collectionsClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.oop2.scope.Main" />
+    <configuration name="MapLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.maps.MapLauncher" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.oop2.scope.*" />
+          <option name="PATTERN" value="com.learning.collections.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.oop2.nested3.Main" />
+    <configuration name="MapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.maps.MapMain" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.oop2.nested3.*" />
+          <option name="PATTERN" value="com.learning.collections.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.exception.Main" />
+    <configuration name="SetRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.sets.SetRunner" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.exception.*" />
+          <option name="PATTERN" value="com.learning.collections.sets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.oop2.nested1.Main" />
+    <configuration name="StackQueueLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.stack.StackQueueLauncher" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.oop2.nested1.*" />
+          <option name="PATTERN" value="com.learning.collections.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,12 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.oop2.nested3.Main" />
+    <configuration name="TreeMapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.maps.TreeMapRunner" />
       <module name="Java - Simple to Complex" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learning.oop2.nested3.*" />
+          <option name="PATTERN" value="com.learning.collections.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TreeMapRunner" />
+        <item itemvalue="Application.MapLauncher" />
+        <item itemvalue="Application.MapMain" />
+        <item itemvalue="Application.SetRunner" />
+        <item itemvalue="Application.StackQueueLauncher" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +339,7 @@
     <frame x="-296" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.171459" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -341,8 +348,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27029702" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4128713" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -362,246 +369,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learning/basics/string/Strings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Size.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-          <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/hello/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="130" selection-start-line="4" selection-start-column="130" selection-end-line="4" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/constructors/Constructors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop1/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/EngineType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/Piston.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="48" column="38" selection-start-line="48" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/composition/CompositionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/InheritanceMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/ElectricCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/FuelAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/Bus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/Auto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/inheritance/Truck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/polymorphism/PolymorphismMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/abstraction/SubClass1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/abstraction/SubClass2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/abstraction/AbstractionMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/Deliverable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/Product.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/InterfacesMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/CanLayEggs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/StaticMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -803,10 +570,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/exception/InvalidInputParamException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#246#247#0" expanded="true" />
             <element signature="e#276#277#0" expanded="true" />
@@ -825,17 +595,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/exception/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        <state relative-caret-position="8">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2651#2652#0" expanded="true" />
             <element signature="e#2697#2698#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/arrays/ArrayLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#printIntArray#0;class#ArrayLauncher#0" />
+            <element signature="method#printIntArrayFromConsole#0;class#ArrayLauncher#0" />
+            <element signature="method#sort#0;class#ArrayLauncher#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/arrays/Indexes2.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/arrays/Indexes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/arrays/MultiDArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="method#print#0;class#MultiDArrays#0" />
+            <element signature="method#printArray2#0;class#MultiDArrays#0" />
+            <element signature="method#summarize#0;class#MultiDArrays#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ListMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ListMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/arrayLists/ArrayListRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/LinkedListRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/lists/linkedLists/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="125" column="42" lean-forward="true" selection-start-line="125" selection-start-column="42" selection-end-line="125" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="109" column="31" lean-forward="true" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/collectionInterface/CollectionsMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="141" column="57" selection-start-line="141" selection-start-column="57" selection-end-line="141" selection-end-column="57" />
+          <folding>
+            <element signature="e#5697#5698#0" expanded="true" />
+            <element signature="e#5728#5729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/collectionsClass/CollectionsMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="68" column="43" lean-forward="true" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+          <folding>
+            <element signature="class#Card#0;class#CollectionsMain#0" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="method#convertToString#0;class#CollectionsMain#0" />
+            <element signature="method#printToConsole#0;class#CollectionsMain#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/stack/StackQueueLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/sets/SetRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="method#populateIntSet#0;class#SetRunner#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1364" selection-start-line="1364" selection-end-line="1364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/sets/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="method#equals#0;class#Car#0" />
+            <element signature="method#hashCode#0;class#Car#0" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/MapMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/MapLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/WordWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/AverageStudenGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/SubjectGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/TreeMapRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
