@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae5aa90b-331c-4587-930a-4e3a98acdd3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/MapLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/MapMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/WordWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/AverageStudenGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/SubjectGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/collections/maps/TreeMapRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/collections/sets/SetRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java - Simple to Complex/com/learning/collections/sets/SetRunner.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,36 +24,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/MapMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/MapLauncher.java">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/TreeMapRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="303">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/WordWrapper.java">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/SubjectGrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="354">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/AverageStudenGrade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+              <folding>
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,9 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/CanFly.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/CanSwim.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/Bird.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/Penguin.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/LandBird.java" />
         <option value="$PROJECT_DIR$/src/com/learning/oop2/interfaces/SkyBird.java" />
@@ -128,6 +134,9 @@
         <option value="$PROJECT_DIR$/src/com/learning/collections/maps/WrdWrapper.java" />
         <option value="$PROJECT_DIR$/src/com/learning/collections/maps/WordWrapper.java" />
         <option value="$PROJECT_DIR$/src/com/learning/collections/maps/MapLauncher.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/SubjectGrade.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/AverageStudenGrade.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/collections/maps/TreeMapRunner.java" />
       </list>
     </option>
   </component>
@@ -187,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543587210031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543825522241" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -224,20 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapLauncher">
-    <configuration name="CollectionsMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learning.collections.collectionInterface.CollectionsMail" />
-      <module name="Java - Simple to Complex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.collections.collectionInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TreeMapRunner">
     <configuration name="CollectionsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.collections.collectionsClass.CollectionsMain" />
       <module name="Java - Simple to Complex" />
@@ -303,13 +299,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeMapRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.maps.TreeMapRunner" />
+      <module name="Java - Simple to Complex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.collections.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMapRunner" />
         <item itemvalue="Application.MapLauncher" />
         <item itemvalue="Application.MapMain" />
         <item itemvalue="Application.SetRunner" />
         <item itemvalue="Application.StackQueueLauncher" />
-        <item itemvalue="Application.CollectionsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +336,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-348" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="-296" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.171459" />
@@ -339,7 +348,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4128713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4128713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +356,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32871288" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32871288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -360,24 +369,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/Product.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/InterfacesMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/CanLayEggs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/oop2/interfaces/StaticMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -803,6 +794,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/MapLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/WordWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
@@ -818,10 +816,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/MapLauncher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/AverageStudenGrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="450">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/SubjectGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/collections/maps/TreeMapRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
