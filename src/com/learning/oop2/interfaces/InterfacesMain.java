@@ -38,17 +38,18 @@ public class InterfacesMain {
 
         System.out.println();
 
-        printLandBird(ostrich);
-        printLandBird(penguin);
-        printLandBird(eagle);
-        printLandBird(duck);
+        printLandBird(ostrich, penguin, eagle, duck);
 
         //static methods in interfaces
         StaticMethods.testStaticMethod();
     }
 
-    public static void printLandBird(CanWalk bird) {
-        bird.walk();
-        bird.layEggs();
+    public static void printLandBird(CanWalk... birds) {
+
+        for (CanWalk bird : birds) {
+            bird.walk();
+            bird.layEggs();
+        }
+
     }
 }

@@ -28,6 +28,6 @@ public abstract class AbstractionMain {
     - require constructors to initialize fields
     - allow static methods (with at least an empty body, however)
     - don't allow static abstract methods (that's nonsense because static methods cannot be overriden?)
-    - static methods of an abstract class cannot be overriden by they can be called separately or inside other methods of a sub-class
+    - static methods of an abstract class cannot be overriden but they can be called separately or inside other methods of a sub-class
     */
 }
